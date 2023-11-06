@@ -1,0 +1,341 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(180, 103, 2);
+}
+#menu{
+    background-color: black;
+    color: white;
+    display: none;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+#menu:hover{
+    background-color: white;
+    color: black;
+    height: 8vh;
+}
+.menu-visivel {
+    display: block !important;
+  }
+/* largura celular */
+@media (max-width: 450px){
+    
+    
+    .logo{
+        width: 60vw;
+        height: 5vh;
+    }
+    .pesquisa{
+        width: 150px;
+        font-size: 10pt;
+        background-color: black;
+    }
+    
+
+    .header-content {
+        display: none;  
+    }
+    #menu{
+        display: block;
+    }
+    .museu_depoimento{
+    background-color: black;    
+    }
+    .museu{
+        min-width: 100%;        
+    }
+    .museu2{
+        min-width: 100%;
+    }
+    .conjunto_mapa{
+        width: 355px;
+        
+    }
+    .mapa{
+        min-width: 90%;
+        margin-left: 5%;
+    }
+    .texto_mapa{
+       
+        min-width: 1px;
+    }
+    .fundo_visita{
+        min-height: 40vh;
+    }
+    .visita{
+        min-width: 70vw;
+    }
+    .data{
+        min-width: 27vw;
+        margin-left: 30%;
+    }
+    .qtd_pessoa{
+        min-height: 5vh;
+    }
+    .texto{
+        max-width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .texto_um{
+        min-width: 90vw;
+    }
+   
+    .exposicao{
+        text-align: center;
+        font-size: 20pt;
+    }
+    .lista_expo{
+        font-size: pt;
+    }
+    .anos_historia{
+        min-width: 90vw;
+    }
+    .texto_dois{
+        font-size: 1pt;
+        width: 60vw;
+        
+    } .anos_historia{
+        text-align: center;
+    }
+    .album_fotos{
+        min-width: 80%;
+        min-height: 60vh;
+    }
+    .imagem_um{
+        
+        min-width: 30vw;
+    }
+    .imagem_dois{
+        min-width: 30vw;
+    }
+    .rodape{
+        font-size: 10pt;
+    }
+}
+@media (min-width: 450px) and (max-width: 767px){
+    
+    
+    .logo{
+        width: 60vw;
+        height: 5vh;
+    }
+    .pesquisa{
+        width: 150px;
+        font-size: 10pt;
+        background-color: black;
+    }
+    
+
+    .header-content {
+        display: none;  
+    }
+    #menu{
+        display: block;
+    }
+    .museu_depoimento{
+    background-color: black;    
+    }
+    .museu{
+        min-width: 100%;        
+    }
+    .museu2{
+        min-width: 100%;
+    }
+    .conjunto_mapa{
+        width: 355px;
+        
+    }
+    .mapa{
+        min-width: 90%;
+        margin-left: 5%;
+    }
+    .texto_mapa{
+       
+        min-width: 1px;
+    }
+    .fundo_visita{
+        min-height: 40vh;
+    }
+    .visita{
+        min-width: 70vw;
+    }
+    .data{
+        min-width: 27vw;
+        margin-left: 30%;
+    }
+    .qtd_pessoa{
+        min-height: 5vh;
+    }
+    .texto{
+        max-width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .texto_um{
+        min-width: 90vw;
+    }
+   
+    .exposicao{
+        text-align: center;
+        font-size: 20pt;
+    }
+    .lista_expo{
+        font-size: pt;
+    }
+    .anos_historia{
+        min-width: 90vw;
+    }
+    .texto_dois{
+        font-size: 1pt;
+        width: 60vw;
+        
+    } .anos_historia{
+        text-align: center;
+    }
+    .album_fotos{
+        min-width: 80%;
+        min-height: 60vh;
+    }
+    .imagem_um{
+        
+        min-width: 10vw;
+    }
+    .imagem_dois{
+        min-width: 10vw;
+    }
+    .rodape{
+        font-size: 10pt;
+    }
+}
+
+/* largura tablet */
+@media (min-width: 768px) and (max-width: 1028px){
+    
+    .logo{
+        width: 50vw;
+        height: 5vh;
+    }
+    .pesquisa{
+        width: 150px;
+        font-size: 11pt;
+    }
+    
+
+    .header-content {
+        display: none;  
+    }
+    #menu{
+        display: block;
+        margin-right: 5%;
+    }
+    .museu_depoimento{
+    background-color: black;    
+    }
+    .museu{
+        min-width: 100%;        
+    }
+    .museu2{
+        min-width: 100%;
+    }
+    .conjunto_mapa{
+        width: 768px;
+        height: 50%;
+    }
+    .mapa{
+        min-width: 70%;
+        margin-left: 15%;
+        min-height: 40%;
+        max-width: 90%;
+    }
+    .texto_mapa{
+       
+        min-width: 1px;
+    }
+    .fundo_visita{
+        min-height: 50vh;
+        
+    }
+    faca_visita{
+        font-size: 30pt;
+    }
+    .visita{
+        min-width: 70vw;
+        font-size: 20pt;
+    }
+    .data{
+        min-width: 25vw;
+        margin-left: 30%;
+    }
+    .botao{
+        max-width: 35vw;
+        margin-left: 20%;
+    }
+    .qtd_pessoa{
+        min-height: 6vh;
+        min-width: 15vw;
+    }
+    .texto{
+        max-width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .texto_um{
+        min-width: 90vw;
+
+    }
+    .exposicao{
+        text-align: center;
+        font-size: 20pt;
+    }
+    .lista_expo{
+        font-size: 14pt;
+        text-align: center;
+        margin-top: 1%;
+    }
+    .anos_historia{
+        min-width: 600px;
+        margin: 10px 10px 10px;
+        font-size: 30pt;
+    }
+    .texto_dois{
+        font-size: 15pt;
+         
+    } .anos_historia{
+        text-align: center;
+    }
+    .album_fotos{
+        min-width: 60%;
+        
+        display: flex;
+        
+    }
+    .imagem_um{
+        
+        min-width: 17vw;
+    }
+    .imagem_dois{
+        min-width: 17vw;
+        
+    }
+    .rodape{
+        font-size: 15pt;
+    }
+    .menu-visivel {
+        display: block !important;
+      }
+    .plano_fundo{
+        max-width: 30vw;
+      }
+    
+}

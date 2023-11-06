@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Bootstrap demo</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+   <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+<body>
+   
+   
+   <header class="topo" style="background-color: #251305; height: 20vh;">
+      <div class="teste d-flex justify-content-between ">
+         <img class="logo mt-3 ms-2" src="./assets/imgs/logo.png" alt="">
+        
+
+         <nav  id="headerContent" class="header-content mt-3 me-2 pesquisa">
+           <a href="./index.html">HOME</a>
+           <a href="./exposicao.html">EXPOSIÇÕES</a>
+           <a href="./pesquisa.html">PESQUISA</a>
+           <a href="./acervo.html">ACERVO</a>
+           <a href="./videos.html">VÍDEOS</a>
+           <a href="./fotos.html">FOTOS</a>
+           <a href="./contato.html">CONTATO</a>
+         </nav>
+
+         <span id="menu" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+         </span>
+
+      </div>
+   </header>
+
+   <main style="background-color: #e4e3d9;;">
+      <div class="museu_depoimento d-flex flex-wrap  gap-4 justify-content-center " >
+         <img class="museu" style=" width: 50%; height: 45vh; margin-top: 1%;" class="museu" src="./assets/imgs/museu.png" alt="" >
+         <img class="museu2" style="width: 40%; max-height: 45vh;margin-top: 1%;" src="./assets/imgs/depoimento.png" alt="">
+      </div>
+
+   <section class="mt-4 gap-4 principal__meio d-flex justify-content-evenly flex-wrap" style="max-width: 100%;margin-left: 3%;">
+
+         <div class="video_um">
+            <h2 class="text-center" style="font-size: 25px;color: green;">VÍDEO: CONHEÇA O MUSEU</h2>
+            <iframe style="width: 60vh; height: 30vh;" src="https://www.youtube.com/embed/riPWyL-7wLo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+         </div>
+
+         <div class="conjunto_mapa">
+            <h2 class="text-center" style="font-size: 25px;color: green;">MAPA: COMO CHEGAR</h2>
+            <img class="mapa" style="width: 30vw;height: 30vh;" src="./assets/imgs/thumbnail.jpg" alt="">
+         </div>
+         
+
+         
+
+         <div class="d-flex flex-column mt-2 fundo_visita" style="background-color: #ccc8b1; max-width: 100%; height: 30vh;">
+
+            <div class="d-flex flex-column align-items-center flex-wrap mt-2 visita">
+               <p class="faca_visita" style="font-weight: bold;color: #8a4301">Faça uma visita</p>
+               <div class="d-flex align-items-center flex-wrap gap-2">
+                  <div class="flex-grow-1 d-flex flex-column align-items-center">
+                     <p style="font-weight: bold;color: #8a4301">Data:</p>
+                     <input class="data" style="width: 10vw; height: 5vh;margin-left: 50%;" type="date" name="" id="">
+                  </div>
+                  <div class="flex-grow-1 mt-2 mt-sm-0 d-flex flex-column align-items-center">
+                     <p style="font-weight: bold;color: #8a4301">Qtd pessoa:</p>
+                     <input class="qtd_pessoa" style="width: 40%; height: 50%; text-align: center;" type="text" name="" id="" value="0">
+                  </div>
+               </div>
+            </div>
+            <div class="d-flex justify-content-center botao ">
+               <input style="width: 90%; margin-left: 5%; margin-top: 8%;background-color: #aaa58a;border: 0px;height: 80%;" type="button" value="verificar disponibilidade">
+            </div>
+            
+         </div>
+
+      </section>
+
+      <div class="">
+
+         <div class="texto d-flex gap-4 flex-wrap justify-content-evenly mt-5" style="margin-left: 4%;">
+            <div class="texto_um" style="max-width: 100%;">
+               <h3 class="exposicao" style="color: green;">EXPOSIÇÕES</h3>
+               <ul class="lista_expo" style="font-size: 10pt;">
+                  <li class="lista_expo">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                  <li class="lista_expo">iste laboriosam ea quo aspernatur rerum tempore tenetur?</li>
+                  <li class="lista_expo">sit ducimus adipisci libero a aperiam quos eaque nihil.</li>
+                  <li class="lista_expo">iste laboriosam ea quo aspernatur rerum tempore tenetur?</li>
+                  <li class="lista_expo">iste laboriosam ea quo aspernatur rerum tempore tenetur?</li>
+                  <li class="lista_expo">sit ducimus adipisci libero a aperiam quos eaque nihil.</li>
+                  <li class="lista_expo">iste laboriosam ea quo aspernatur rerum tempore tenetur?</li>
+               </ul>
+            </div>
+            <div class="anos_historia d-flex flex-column" style="max-width: 34%; margin-right: 4%;">
+               <h3 class="anos_historia" style="color: green;">200 ANOS DE HISTORIA</h3>
+               <p  class="texto_dois">
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur accusamus itaque fugit impedit, commTenetur accusamus itaque fugit impedit, commodi et consectetur tempora tempore reprehenderit sunt quisquam alias praesentium amet rerum debitis expedita autem sit facere!odi et consectetur tempora tempore reprehenderit sunt quisquam</h4>
+            </div>
+            
+            <div class="album_fotos d-flex justify-content-center align-items-center mb-5 me-2" style="background-color: #ccc9ba; width: 26%; max-height: 50vh; 
+               ">
+               <div class="">
+                  <div  class="imagem_um position-relative">
+                        <img class="plano_fundo" src="./assets/imgs/fundo-foto.png" alt="Plano de Fundo" class="img-fluid">
+                        <img src="./assets/imgs/imagem1.jpg" alt="Foto" class="img-fluid position-absolute top-50 start-50 translate-middle" style="max-width: 65%;">
+                  
+                     </div>
+                     <div class="position-relative">
+                        <img class="plano_fundo" src="./assets/imgs/fundo-foto.png" alt="Plano de Fundo" class="img-fluid">
+                        <img src="./assets/imgs/imagem1.jpg" alt="Foto" class="img-fluid position-absolute top-50 start-50 translate-middle" style="max-width: 65%;">
+                     </div>
+                  </div>
+                  <div class="imagem_dois">
+                     <div class="position-relative">
+                        <img class="plano_fundo"src="./assets/imgs/fundo-foto.png" alt="Plano de Fundo" class="img-fluid">
+                        <img src="./assets/imgs/imagem1.jpg" alt="Foto" class="img-fluid position-absolute top-50 start-50 translate-middle" style="max-width: 65%;">
+                     </div>
+                     <div class="position-relative">
+                        <img class="plano_fundo" src="./assets/imgs/fundo-foto.png" alt="Plano de Fundo" class="img-fluid">
+                        <img src="./assets/imgs/imagem1.jpg" alt="Foto" class="img-fluid position-absolute top-50 start-50 translate-middle" style="max-width: 65%;">
+                     </div>
+                  </div>
+               </div>
+         </div>
+      </div>
+
+   </main>
+
+   <footer>
+      <nav class="rodape d-flex flex-column align-items-center flex-wrap gap-2" style="background-color: #ebeae5;">
+         <div>
+            <a href="">HOME</a>
+            <a href="">EXPOSIÇÕES</a>
+            <a href="">PESQUISA</a>
+            <a href="">ACERVO</a>
+            <a href="">VÍDEOS</a>
+            <a href="">FOTOS</a>
+            <a href="">CONTATO</a>
+            
+         </div>
+         
+         <div>
+            
+            <blockquote>
+               <p><cite>2019 <span class="text-warning">Museu Nacional</span> - Todos os direitos reservados.</cite>
+            </blockquote>
+         </div>
+      </nav>
+   </footer>
+
+   <script>
+      const pesquisa = document.querySelector(".pesquisa");
+      
+
+      function clickMenu() {
+      pesquisa.classList.toggle("menu-visivel");
+      }
+
+
+      function clickMenu() {
+      if (pesquisa.style.display === "block") {
+         pesquisa.style.display = "none";
+      } else {
+         pesquisa.style.display = "block";
+      }
+      }
+   </script>
+   
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+ </body>
+</html>
+
